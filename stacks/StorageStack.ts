@@ -14,7 +14,7 @@ export function StorageStack({ stack }: StackContext) {
   const bucket = new Bucket(stack, "Uploads");
 
   return {
-    
+    bucket,
     table,
   };
 }
